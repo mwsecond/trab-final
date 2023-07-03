@@ -1,0 +1,184 @@
+@media only screen and (max-width: 980px) {
+    .main-nav {
+        float: right;
+        list-style: none;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        font-weight: 350;
+        margin-left: 10px;
+    }
+    
+    .p {
+        margin-top: 40px;
+    }
+
+    .img-logo {
+        float: left;
+        width: 10%;
+        height: auto;
+    }
+    .rangers3 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .images-showcase li{
+        display: block; 
+        float: left; 
+        width: 30%;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        font-weight: 350;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .burguer{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 10px;
+        top: 3%;
+        z-index: 10;
+        flex-grow: 0;
+    }
+
+    ion-icon{
+        color: black;
+    }
+
+    .main-nav{
+        position: fixed;
+        right: -400px;
+        top: 30px;
+        transition: all 1.0s;
+        background-color: rgba(1, 65, 1, 0.89);;
+        border-radius: 10px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-nav-icon{
+        display: inline-block;
+        margin-top: 0;
+        font-size: larger;
+        margin-top: 0px;
+        font-size: 10px;
+        padding-top: 0;
+    }
+
+    .burguer #hamburguer{
+        z-index: 2;        
+        transition: all 1s;
+    }
+
+    .rota{
+        transform: rotate(90deg);        
+    }
+
+    .ativado{
+        position: absolute;
+        right: 3px;
+        top: -5px;
+        padding: 0 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        text-align: center;        
+    }
+
+    .img-logo {
+        float: left;
+        width: 15%;
+        height: auto;
+        margin-left: 10%;
+    }
+    
+    .temporadas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tempor {
+        width: 100%;
+    }
+
+    .temp {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .logo-facebook,
+    .logo-googleplus,
+    .logo-twitter,
+    .logo-instagram {
+        color: green;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .images-showcase li{
+        display: block; 
+        float: left; 
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .img-logo {
+        float: left;
+        width: 20%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .int-hq {
+        padding: 0px 90px 50px 90px;
+    }
+
+    .rangers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rangers3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50%;
+    }
+    
+    .rangers2 {
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .images-showcase li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .op {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
